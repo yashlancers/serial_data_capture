@@ -10,6 +10,4 @@ cd serial_data_capture
 
 python3 serial_data_capture.py
 
-check the serial data dump in csvData folder
-
-be sure to corrrect the serial port of your sensor in the serial_data_capture python script. i have used ttyUSB0.
+Check the serial data dump in csvData folder. The file will be .csv with date and time as file name autocreated. Be sure to corrrect the serial port where your sensor is attached with Raspberry Pi 4 or anyother Linux board in the serial_data_capture.py python script. i have used ttyUSB0.
